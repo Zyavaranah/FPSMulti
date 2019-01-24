@@ -58,7 +58,7 @@ Transform:
   m_LocalPosition: {x: 0.256, y: -0.083000004, z: 0.593}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5156302991023132431}
+  - {fileID: 5156302991023132424}
   m_Father: {fileID: 103}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 180, y: 100.627, z: 180}
@@ -372,7 +372,7 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 1335
-  cameraFX: {fileID: 5156302991023132318}
+  cameraFX: {fileID: 5156302991023132314}
 --- !u!114 &197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1468,7 +1468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a777a44aeae770d489b3d394eb010609, type: 3}
---- !u!114 &5156302991023132318 stripped
+--- !u!114 &5156302991023132314 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5844784306427681442, guid: a777a44aeae770d489b3d394eb010609,
     type: 3}
@@ -1480,7 +1480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1db51cbbd153ca43a9c69ee0c24b7ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &5156302991023132431 stripped
+--- !u!4 &5156302991023132424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7163223179261920666, guid: a777a44aeae770d489b3d394eb010609,
     type: 3}
