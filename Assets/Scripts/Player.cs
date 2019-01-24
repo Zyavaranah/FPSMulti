@@ -61,6 +61,7 @@ public class Player : NetworkBehaviour
         Debug.Log(transform.name + " Health: " + currentHealth + "/" + maxHealth);
         if (currentHealth <= 0)
         {
+            hp.text = "0";
             GameManager.GetPlayer(from).killAmount++;
             GameManager.GetPlayer(from).kills.text = GameManager.GetPlayer(from).killAmount.ToString();
             GameManager.GameOver();
